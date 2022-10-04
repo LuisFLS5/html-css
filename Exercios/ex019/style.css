@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+*/
+mark{
+    background-color: gray;
+    color: rgb(7, 7, 151);
+}
+body{
+    background-image: linear-gradient(to right, red 10%, black 90%);
+}
+main{
+    background-color: gray;
+    border-radius: 10px ; /*borda com sombra*/ 
+    box-shadow: 5px 0px 15px rgb(255, 0, 0);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: darkblue;
+}
+h1#principal{
+    text-align: center;
+    background-color: rgb(245, 245, 87);
+    color: green;
+}
+h2{
+    color: rgb(170, 170, 28);
+}
+.basico{
+color: rgb(170, 170, 28);
+font-weight: bold;
+}
+.intermediario{
+color: skyblue;
+}
+.avançado{
+color: darkorange;
+}
+.destaque{
+    background-color: #c5c56070;
+}

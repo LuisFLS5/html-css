@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 0px;
+}
+section{
+    background-color: rgb(238, 238, 238);
+    padding: 1px;
+    margin: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(138, 36, 36);
+    
+}
+.noticias{
+    color: red;
+}
+nav{
+    background-color: rgb(139, 139, 139);
+    padding: 5px;
+    box-shadow: 2px 2px 4px 1px black;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+a:active{
+    color: yellow;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    border-radius: 10px 0px;
+    box-shadow: 5px 5px 5px black;
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(168, 168, 168);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
+#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+
+}
